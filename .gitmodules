@@ -4,3 +4,6 @@
 [submodule "vision/medical_imaging/3d-unet-brats19/nnUnet"]
 	path = vision/medical_imaging/3d-unet-brats19/nnUnet
 	url = https://github.com/MIC-DKFZ/nnUNet.git
+[submodule "third_party/pybind"]
+	path = third_party/pybind
+	url = https://github.com/pybind/pybind11.git
