@@ -81,11 +81,15 @@ mlperf_loadgen_module = Pybind11Extension(
         sources=mlperf_loadgen_sources,
         depends=mlperf_loadgen_headers)
 
-setup(name="mlperf_loadgen",
-      version="3.1",
-      description="MLPerf Inference LoadGen python bindings",
-      url="https://mlcommons.org/",
-      cmdclass={"build_ext": build_ext},
-      ext_modules=[mlperf_loadgen_module],
-      long_description=mlperf_long_description,
-      long_description_content_type='text/markdown')
+setup(
+    name="mlperf_loadgen",
+    version="3.1",
+    description="MLPerf Inference LoadGen python bindings",
+    url="https://mlcommons.org/",
+    cmdclass={"build_ext": build_ext},
+    ext_modules=[mlperf_loadgen_module],
+    long_description=mlperf_long_description,
+    long_description_content_type='text/markdown',
+    install_requires=['pybind11']
+)
+
