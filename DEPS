@@ -16,7 +16,7 @@ deps = {
     'url': '{chromium_git}/tools/clang.git@3114fbc11f9644c54dd0a4cdbfa867bac50ff983',
   },
   '{mlpth_root}/third_party/pybind': {
-    'url': 'https://github.com/pybind/pybind11.git@v2.2',
+    'url': 'https://github.com/pybind/pybind11.git',
   },
 }
 
